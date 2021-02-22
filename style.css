@@ -1,0 +1,68 @@
+body{
+	font-family: verdana;
+	background-color: e0e2db; 
+	color: white;
+	align-items: center;
+
+}
+
+h1{
+	font-size: 55px;
+	padding-top: 280px;
+	padding-left: 200px;
+	padding-right: 1000px;
+	text-shadow: 5px 5px 15px black;
+	margin-bottom: 20px;
+	text-align: left
+}
+
+
+.botao{
+	text-decoration: none;
+	background-color: 5f7470;
+	color: white;
+	font-size: 18px;
+	padding: 8px 10px 8px 10px;
+	border-radius: 8px;
+	margin-top: 0px;
+	padding-left: 10px;
+	margin-left: 200px;
+	position: absolute;
+	font-family: verdana;
+	letter-spacing: 1.5px;
+	
+
+}
+
+.me{
+
+	width: 650px;
+	height: 450px;
+	max-width: 100%;
+	padding-left: 1000px;
+	padding-right: 200px;
+	position: fixed;
+	left: 10px;
+	top: 300px;
+
+
+}
+
+.lista li{
+	display: inline;
+	font-weight: 400;
+	margin-left: 40px;
+	top: 100px;
+	right: 100px;
+}
+
+.lista li a{
+	color: gray;
+	font-size: 50px;
+}
+
+.lista{
+	position: absolute;
+	top: 10px;
+	left: 1500px;
+}
