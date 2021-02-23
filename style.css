@@ -1,68 +1,85 @@
-body{
-	font-family: verdana;
-	background-color: e0e2db; 
-	color: white;
+
+
+section{
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: e0e2db;
+}
+
+
+header{   
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 35px 1500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+header ul{
+	position: relative;
+	display: flex;
+}
+
+header ul li{
+	list-style: none;
+}
+
+header ul li a{
+	display: inline-block;
+	font-weight: 400;
+	margin-left: 40px;
+	text-decoration: none;
+	color: gray;
+	font-size: 50px;
+
+}
+
+.content{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 	align-items: center;
 
 }
 
-h1{
-	font-size: 55px;
-	padding-top: 280px;
+
+.content .textBox h2{
+	color: white;
+	font-family: verdana;
 	padding-left: 200px;
-	padding-right: 1000px;
+	font-size: 55px;
 	text-shadow: 5px 5px 15px black;
-	margin-bottom: 20px;
-	text-align: left
+	display: flex;
+
+
 }
 
-
-.botao{
-	text-decoration: none;
+.content .textBox a{
+	display: inline-block;
+	margin-top: 0px;
+	padding: 8px 20px;
 	background-color: 5f7470;
 	color: white;
-	font-size: 18px;
-	padding: 8px 10px 8px 10px;
-	border-radius: 8px;
-	margin-top: 0px;
-	padding-left: 10px;
-	margin-left: 200px;
-	position: absolute;
+	border-radius: 10px;
+	letter-spacing: 1px;
+	text-decoration: none;
 	font-family: verdana;
-	letter-spacing: 1.5px;
-	
-
+	padding-left: 20px;
+	margin-left: 200px;
 }
 
-.me{
-
-	width: 650px;
-	height: 450px;
-	max-width: 100%;
-	padding-left: 1000px;
-	padding-right: 200px;
-	position: fixed;
-	left: 10px;
-	top: 300px;
-
-
-}
-
-.lista li{
-	display: inline;
-	font-weight: 400;
-	margin-left: 40px;
-	top: 100px;
-	right: 100px;
-}
-
-.lista li a{
-	color: gray;
-	font-size: 50px;
-}
-
-.lista{
-	position: absolute;
-	top: 10px;
-	left: 1500px;
+.content .imgBox{
+	width: 700px;
+	height: 500px;
+	display: inline-flex;
+	justify-content: flex-start;
+	padding-right: 280px;
 }
